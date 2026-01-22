@@ -1,0 +1,70 @@
+.form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form .field {
+    margin-bottom: 10px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="file"],
+  .form input[type="number"],
+  .form input[type="submit"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto;
+  }
+
+  .form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  
+  /* tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  @media screen and (max-width: 600px) {
+    table {
+      overflow-x: auto;
+      display: block;
+    }
+    th, td {
+      min-width: 100px;
+    }
+  }
